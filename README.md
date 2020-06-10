@@ -3,6 +3,7 @@
 以下说明based on Caddy [V2.0.0](https://github.com/caddyserver/caddy/releases/tag/v2.0.0)
 
 Caddy默认有一个directive的执行顺序：
+
 root
 
 header
