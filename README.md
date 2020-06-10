@@ -8,24 +8,35 @@ root
 header
 
 redir
+
 rewrite
 
 uri
+
 try_files
 
 basicauth
+
 request_header
+
 encode
+
 templates
 
 handle
+
 handle_path
+
 route
 
 respond
+
 reverse_proxy
+
 php_fastcgi
+
 file_server
+
 acme_server
 
 如果需要改变这个顺序，可以在glbal option里改变order的设置，或者使用route.
